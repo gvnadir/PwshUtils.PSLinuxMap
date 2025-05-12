@@ -56,11 +56,11 @@ Get-UtilPSLinuxMap | Format-Table
 
 #### Example output:
 
-| Operation                | Windows Command                           | Linux Command                        | Description                          |
+| Operation                | Windows                                    | Linux                                | Description                          |
 |--------------------------|--------------------------------------------|--------------------------------------|--------------------------------------|
 | Ping an IP               | ping 192.168.1.10                          | ping 192.168.1.10                    | Check if host is reachable           |
-| Traceroute               | tracert 192.168.1.10                       | traceroute 192.168.1.10             | Show hops to host                    |
-| Port check (TCP)         | Test-NetConnection -ComputerName ...       | nc -zv ...                          | Check if a port is open              |
+| Traceroute               | tracert 192.168.1.10                       | traceroute 192.168.1.10              | Show hops to host                    |
+| Port check (TCP)         | Test-NetConnection -ComputerName ...       | nc -zv ...                           | Check if a port is open              |
 
 You can filter the results:
 
